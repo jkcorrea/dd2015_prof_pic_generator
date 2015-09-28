@@ -24,7 +24,7 @@ app.post('/render', upload.single('prof-pic-original'), function(req, res, next)
   _render(res, req.file);
 });
 
-app.listen(3000, function() {
+app.listen(env.PORT || 3000, function() {
   console.log("Working on port 3000");
 });
 
