@@ -9,9 +9,15 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  max-width: 50%;
+  max-width: 100%;
+  z-index: 2;
 }
 
 #preview #prof-pic-preview {
   max-width: 100%;
+  z-index: 1;
+}
+
+.hide {
+  display: none !important;
 }

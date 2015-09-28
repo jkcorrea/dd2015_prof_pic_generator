@@ -7,12 +7,20 @@
 
 <body>
   <div id="preview">
-    <img src="donut_overlay.png">
+    <img id="overlay-dark" src="overlay_dark.png">
+    <img id="overlay-light" src="overlay_light.png" class="hide">
     <img id="prof-pic-preview">
   </div>
 
   <form id="upload-form" enctype="multipart/form-data" action="/render" method="POST">
     <input id="file-upload" type="file" name="prof-pic-original" accept="image/*" onchange="runPreview(event)" required/>
+
+    <input type="radio" name="overlay-type-selector" value="dark" onchange="changeType()" checked>
+    Dark Theme
+
+    <input type="radio" name="overlay-type-selector" value="light" onchange="changeType()">
+    Light Theme
+
     <input type="submit" value="Donut-ify Me!" name="submit">
   </form>
 </body>

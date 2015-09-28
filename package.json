@@ -9,8 +9,8 @@
   "author": "Jake Correa",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "images": "~2.1.6",
     "express": "~4.13.3",
-    "multer": "~1.0.5"
+    "multer": "~1.0.5",
+    "canvas": "~1.2.9"
   }
 }
