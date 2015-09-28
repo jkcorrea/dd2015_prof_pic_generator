@@ -1,0 +1,12 @@
+node_modules
+
+# From Prof H's ignore files
+.DS_Store
+*.log
+tmp/**/*
+
+# Dropbox conflicted copies
+*conflicted copy*
+
+# Fuse_hidden files
+.fuse_hidden*
