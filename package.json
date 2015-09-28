@@ -1,0 +1,11 @@
+{
+  "name": "DonutDashProfPic",
+  "version": "0.0.0",
+  "description": "A profile picture generator for Donut Dash 2015",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jake Correa",
+  "license": "BSD-2-Clause"
+}
